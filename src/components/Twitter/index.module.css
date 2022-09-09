@@ -1,0 +1,80 @@
+/* body{
+    width:100%;
+    height: 100%;
+    background-color: rgb(3, 1, 1);
+} */
+
+.parent {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(3, 1, 1);
+    display: flex;
+    justify-content: center;
+}
+
+.home {
+    width: 50%;
+    height: 100%;
+    /* will be 100vh from parent*/
+    /* background-color: green; */
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+.homeTop {
+    width: 100%;
+    height: 30vh;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-bottom: 1px solid white; */
+}
+
+.addTweet {
+    width: 95%;
+    height: 90%;
+    /* background-color: rgb(98, 45, 26); */
+    position: relative;
+    border-bottom: 1px solid white;
+}
+
+.addTweet input {
+    width: 90%;
+    height: 8vh;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 1.5rem;
+    margin-left: 10%;
+    position: absolute;
+    top: 10vh;
+    right: 0;
+    color: white;
+}
+
+.addTweet button {
+    width: 60px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    font-size: 1rem;
+    color: blue;
+    font-weight: 600;
+    position: absolute;
+    bottom: 10px;
+    left: 10vh;
+    cursor: pointer;
+}
+
+.homeBottom {
+    width: 100%;
+    height: 70vh;
+    /* background-color: blue; */
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 1px;
+}
+
