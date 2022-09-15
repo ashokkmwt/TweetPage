@@ -1,0 +1,6 @@
+es (4 sloc)  63 Bytes
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
