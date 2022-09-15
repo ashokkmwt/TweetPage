@@ -14,13 +14,12 @@
 }
 
 .homeTop {
-    width: 100%;
+    width: 100%; 
     height: 30vh;
-    /* background-color: red; */
+    background-color: red;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border-bottom: 1px solid white; */
 }
 
 .addTweet {
@@ -70,7 +69,7 @@
 
 @media only screen and (max-width: 800px) {
     .home {
-        width: 60%;
+        width: 70%;
     }
 
     .addTweet input {
@@ -80,7 +79,15 @@
 
 @media only screen and (max-width: 600px) {
     .home {
-        width: 80%;
+        width: 100%;
+    }
+
+    .homeTop {
+        height: 40vh;
+    }
+
+    .homeBottom{
+        height: 60vh;
     }
 
     .addTweet input {
