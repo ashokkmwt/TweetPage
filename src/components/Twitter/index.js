@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
 import { addTweetAction } from '../../redux/actions/tweetActions';
-import Tweet from '../AddTweet';
+import AddTweet from '../AddTweet';
 import styles from './index.module.css'
 
 export default function Tweeter() {
@@ -45,7 +45,7 @@ export default function Tweeter() {
           {getTweets.map((tweet) => {
             return (
               <React.Fragment key={tweet.id}>
-                <Tweet data={tweet} />
+                <AddTweet data={tweet} />
               </React.Fragment>
             )
           })}

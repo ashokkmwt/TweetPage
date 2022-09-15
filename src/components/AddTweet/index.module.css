@@ -3,11 +3,11 @@
     margin-right: auto;
     width: 95%;
     min-height: 100px;
-    /* background-color: navy; */
     margin-top: 10px;
     padding: 10px;
     border-bottom: 1px solid white;
     position: relative;
+   
 }
 
 
@@ -53,4 +53,20 @@
     right: 5px;
     top: 15px;
     cursor: pointer;
+}
+
+@media only screen and (max-width: 800px) {
+    .myTweet{
+        font-size: 1.1rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .myTweet{
+        font-size: 1rem;
+    }
+
+    .status{
+        font-size: 1rem;
+    }
 }

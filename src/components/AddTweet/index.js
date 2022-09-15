@@ -22,7 +22,7 @@ export default function AddTweet({ data }) {
     const showOptions = () => {
         dispatch(optionsAction(id));
     };
-
+ 
     const updateTweet = () => {
         setReadonly(false);
         showOptions();
@@ -41,7 +41,7 @@ export default function AddTweet({ data }) {
         }
         dispatch(updateTweetAction(updateObj))
     }
-
+ 
 
     const setArchieve = () => {
         showOptions();

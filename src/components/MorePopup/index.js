@@ -15,7 +15,7 @@ export default function MorePopup(props) {
         dispatch(statusUpdateAction(id))
         showOptions();
     }
-
+ 
     // adding propagation on popup
     const ref = useRef();
 
